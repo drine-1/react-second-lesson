@@ -5,8 +5,8 @@ import { CATEGORIES_URL, EMBEDD_URL } from "../config/ApiEndPoint";
 import axios from "axios";
 import { COLOR } from "../components/Color/Color";
 import Loading from "../components/Loading/Loading";
-import { Link, withRouter } from "react-router-dom";
-import Category from "./Category";
+import { withRouter } from "react-router-dom";
+
 
 class Categories extends Component {
   state = {
